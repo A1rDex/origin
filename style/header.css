@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+;
+*{
+    list-style: none;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    color:white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    
+    padding: .4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4671D5;
+    background-image: url(../img/paw_bg1.png);
+    background-color: white;
+    position: fixed;
+    top:0;
+   left:0;
+   right: 0;
+}
+ header img{
+    margin-top:5px;
+ }
+i{
+    font-size: 30px;
+    margin: 1%;
+   
+}
+header menu ul li{
+position: relative;
+float: left;
+
+}
+
+header menu ul li a{
+    padding: 15px;
+    color: #4671D5;
+    transition: 0.1s linear;
+    display: block;
+}
+
+header menu ul li a:hover{
+    color:white;
+    background-color: #4671D5;
+}
+menu ul li ul{
+   
+    background-color: white;
+    background-image: url(../img/paw_bg1.png);
+    position: absolute;
+    left:0;
+    width: 180px;
+    display:none;
+    padding: 0;
+}
+menu ul li ul li{
+    border:1px rgba(0,0,0,.1) solid;
+    width: 100%;
+   
+}
+
+header menu ul li:hover > ul{
+    display: initial;
+}
+
+#modal-window{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+}
+.modal-content{
+    width: 20%;
+    background-color: white;
+    color:white;
+    padding: 30px 10px;
+   border-radius:10px ;
+   position: relative;
+   text-align: center;
+   color:black;
+   
+}
+.close-btn{
+position: absolute;
+top:0;
+right: 10px;
+}
+#modal-window h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.modal-content input{
+    width: 80%;
+    padding: 4px;
+    margin-bottom:10px ;
+}
+.modal-content .login{
+    /* width: 40%; */
+    padding: 5px;
+    font-size: 20px;
+}
+#modal-window .modal-content a{
+    text-decoration: underline;
+    color:#326894;
+}
+
+#modal-window2{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+    
+}

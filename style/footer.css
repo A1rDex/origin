@@ -1,0 +1,23 @@
+footer{
+    background-color: white;
+    display: flex;
+    color: #01050d;
+    margin:0;
+    justify-content: space-between;
+   
+}
+
+footer div{
+    margin: 2%;
+}
+
+.year{
+    margin:0;
+    background-color: #01050d;
+    top:0
+}
+
+.fa-brands{
+    font-size:80px;
+    /* margin:4% */
+}

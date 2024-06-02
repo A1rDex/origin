@@ -1,0 +1,156 @@
+
+.a1{
+background-image:linear-gradient(180deg, #01050d 0%, rgba(1, 5, 14, 0.527) 0%),url(img/pexels-snapwire-46024.jpg);
+
+padding:9%;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: center;
+overflow: hidden;
+background-repeat: no-repeat;
+background-attachment: fixed;
+color: white;
+font-size: 45px;
+}
+
+.a1 h1{
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns:30% 70%;
+    grid-template-rows: 50vh;
+    /* border: #628d1d solid; */
+}
+.grid-item1{
+    background-image: url(img/2\ \(1\).png);
+    background-color: rgb(231, 230, 230);
+    background-size:cover;
+}
+.grid-item2{
+background-image: url(img/paw_bg1.png);
+background-color: rgb(231, 230, 230);
+color:black;
+font-size:34px;
+}
+div.grid-text{
+    margin: 2%;
+}
+.popular_title{
+    color:black;
+    text-align: center;
+}
+
+.Popular{
+   display: flex;
+flex-direction: row;
+justify-content: space-around;
+    /* height: 400px; */
+    color:black;  
+    margin: 1%;
+}
+
+.Popular .clinic{
+    border:black solid;
+   width: max-content;
+   font-size: 25px;
+   border-radius: 0 20px 20px 20px;
+}
+.Popular div div{
+   
+    display: flex;
+   
+}
+.other p i{
+    font-size:15px;
+    margin: 10px;
+
+}
+.photo{
+    flex-direction: column;
+    align-items: center;
+  
+}
+.photo button{
+    margin:10px;
+    font-size: 20px;
+ border-radius: 10px;
+}
+   
+
+.other{
+justify-content: space-between;
+width: 50vh;
+margin: 10px;
+}
+.all{
+  flex-direction: column;
+}
+.reviews{
+    flex-direction: column;
+}
+.review{
+   /* width:30vh; */
+   overflow-wrap: break-word;
+   font-size:15px;
+   flex-direction: column;
+   border: 2px solid black;
+   margin: 3%;
+   padding: 2%;
+   border-radius: 15px;
+}
+.review i{
+    font-size:15px;
+    /* width:10vh; */
+}
+.review p{
+    margin:2%;
+}
+.review-name{
+    justify-content: space-between;
+}
+.clinic p{
+    margin-left: 2%;
+}
+
+
+
+.grid-text h1{
+    margin: 0;
+}
+/* .grid-text p{
+    font-size: 10px;
+} */
+
+
+.search{
+    padding:16px;
+    border-radius: 16px 0 0 16px ;
+    border:none;
+    margin: 0;
+    font-size: 20px;
+ background-color: rgb(223, 223, 223);   
+ color:black;
+}
+.submit{
+    padding:16px;
+    border-radius: 0 16px 16px 0;
+    border:none;
+    margin:0;
+    font-size: 20px;
+    
+}
+
+
+.images{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+
